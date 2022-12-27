@@ -575,7 +575,7 @@ Windows Registry Editor Version 5.00
 "FPEnabled"=dword:00000000
 
 ### ; Disable Windows Spotlight (Tips and suggestions)
-
+```
 [HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
 "DisableWindowsSpotlightFeatures"=dword:00000001
 "ConfigureWindowsSpotlight"=dword:00000002
@@ -607,10 +607,10 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
 "SoftLandingEnabled"=dword:00000000
-      
 "RotatingLockScreenEnabled"=dword:00000000
 "RotatingLockScreenOverlayEnabled"=dword:00000000
 "SubscribedContent-202914Enabled"=dword:00000000
 "SubscribedContent-338387Enabled"=dword:00000000
 "SubscribedContent-338389Enabled"=dword:00000000
 "SubscribedContent-353698Enabled"=dword:00000000
+```
