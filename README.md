@@ -1,7 +1,7 @@
 # Tweaks
 
-Collection of Windows Tweaks for Performance, Latency, Privacy & Gaming.
-I don't take credits for such registrys.
+<span style="font-family:Papyrus; font-size:4em;">Collection of Windows Tweaks for Performance, Latency, Privacy & Gaming.
+I don't take credits for such registrys.</span>
       
 <details>
 <summary><b>Privacy.reg</b></summary>
@@ -18,7 +18,7 @@ Windows Registry Editor Version 5.00
 "Value"="Deny"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
-"Value"="Deny" </span>    
+"Value"="Deny"    
       
 ### ;Disable apps access - Call History
 
