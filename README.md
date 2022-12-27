@@ -1,4 +1,20 @@
 # Tweaks
 Collection of Windows Tweaks for Performance, Latency, Privacy and mostly Gaming
 
-## Privacy
+<details>
+<summary>Privacy</summary>
+<br>
+
+## Disable apps access - Appointments
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
+"Value"="Deny"
+
+[HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
+"Value"="Deny"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
+"Value"="Deny"
+
+
+
