@@ -616,7 +616,7 @@ Windows Registry Editor Version 5.00
 ```
 </details>
 
-***
+
       
 <details>
 <summary><b>Explorer.reg</b></summary>
