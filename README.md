@@ -1,6 +1,6 @@
 # Tweaks
 
-<font size=”1”>Collection of Windows Tweaks for Performance, Latency, Privacy & Gaming.
+<font size=”1”> Collection of Windows Tweaks for Performance, Latency, Privacy & Gaming.
 
 I don't take credits for such registrys. </font>
 
