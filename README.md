@@ -4,7 +4,7 @@ Collection of Windows Tweaks for Performance, Latency, Privacy & Gaming.
 
 I don't take credits for such registrys. 
 
-<h1>
+<details>
 <summary>Privacy.reg</summary>
 <br>
 
