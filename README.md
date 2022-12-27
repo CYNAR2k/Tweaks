@@ -7,7 +7,7 @@ Collection of Windows Tweaks for Performance, Latency, Privacy and mostly Gaming
 
 Windows Registry Editor Version 5.00  
 
-# Disable apps access - Appointments
+#### Disable apps access - Appointments
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
 "Value"="Deny"
