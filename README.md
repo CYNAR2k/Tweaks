@@ -6,9 +6,8 @@ I don't take credits for such registrys.
 
 Enjoy.
       
-<details>
+
 <summary><b>Privacy.reg</b></summary>
-<br>
 
 Windows Registry Editor Version 5.00  
 
