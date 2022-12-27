@@ -6,8 +6,9 @@ I don't take credits for such registrys.
 
 Enjoy.
       
-
+<details>
 <summary><b>Privacy.reg</b></summary>
+<br>
 
 Windows Registry Editor Version 5.00  
 
@@ -613,6 +614,9 @@ Windows Registry Editor Version 5.00
 "SubscribedContent-338389Enabled"=dword:00000000
 "SubscribedContent-353698Enabled"=dword:00000000
 ```
+</details>
+
+---
       
 <details>
 <summary><b>Explorer.reg</b></summary>
