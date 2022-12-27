@@ -13,7 +13,7 @@ Windows Registry Editor Version 5.00
 
 ### ;Disable apps access - Appointments
   
-<font size="1">
+<font size= "1">
   
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
 "Value"="Deny"
