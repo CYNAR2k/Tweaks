@@ -10,7 +10,7 @@ I don't take credits for such registrys.
 Windows Registry Editor Version 5.00  
 
 ### ;Disable apps access - Appointments
-
+<span style="font-size:1em;">
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
 "Value"="Deny"
       
@@ -19,7 +19,7 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
 "Value"="Deny"
-    
+</span>    
 ### ;Disable apps access - Call History
 
 [HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\phoneCallHistory]
