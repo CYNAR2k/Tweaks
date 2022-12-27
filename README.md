@@ -5,7 +5,7 @@ Collection of Windows Tweaks for Performance, Latency, Privacy & Gaming.
 I don't take credits for such registrys. 
 
 <details>
-<summary>Privacy.reg</summary>
+<summary>#Privacy.reg</summary>
 <br>
 
 Windows Registry Editor Version 5.00  
