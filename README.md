@@ -10,8 +10,8 @@ I don't take credits for such registrys.
 Windows Registry Editor Version 5.00  
 
 ### ;Disable apps access - Appointments
-  
->[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
+>
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
 "Value"="Deny"
 [HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\appointments]
 "Value"="Deny"
