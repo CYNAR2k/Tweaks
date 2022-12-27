@@ -1,6 +1,6 @@
 # Tweaks
-Collection of Windows Tweaks for Performance, Latency, Privacy & Gaming.
 
+Collection of Windows Tweaks for Performance, Latency, Privacy & Gaming.
 
 I don't take credits for such registrys. 
 
