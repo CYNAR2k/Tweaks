@@ -28,4 +28,12 @@ Windows Registry Editor Version 5.00
 ```
 ### Command Prompt in directory shit + right-click context menu
 
-###
+### Control panel - Classic View
+```
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel]
+"StartupPage"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Explorer\ControlPanel]
+"StartupPage"=dword:00000001
+```
+### 
