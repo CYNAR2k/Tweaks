@@ -266,7 +266,7 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\WcmSvc\wifinetworkmanager\features]
 "WiFiSenseOpen"=dword:00000000
 ```
-### ;Disable automatic installation of suggested apps (Promotional tiles such as Minecraft, Candy Crush, Flipboard etc.)\
+### ;Disable automatic installation of suggested apps (Promotional tiles such as Minecraft, Candy Crush, Flipboard etc.)
 ```
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
 "SilentInstalledAppsEnabled"=dword:00000000
