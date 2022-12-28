@@ -28,6 +28,12 @@ Windows Registry Editor Version 5.00
 ```
 ### Command Prompt in directory shit + right-click context menu
 
-### 
+### Display file size information in folder tips
+```
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"FolderContentsInfoTip"=dword:00000001
 
+[HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
+"FolderContentsInfoTip"=dword:00000001
+```
 ### 
