@@ -8,5 +8,5 @@ Enjoy.
 
 - [Privacy](https://github.com/CYNAR2k/Tweaks/blob/main/Privacy.md)
 
-- [Explorer] (https://github.com/CYNAR2k/Tweaks/blob/main/Explorer.md)
+- [Explorer](https://github.com/CYNAR2k/Tweaks/blob/main/Explorer.md)
 
