@@ -114,7 +114,7 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "TaskbarGlomLevel"=dword:00000002
 
-;Don't hide scrill bars in Windows
+;Don't hide scroll bars in Windows
 
 [HKEY_CURRENT_USER\Control Panel\Accessibility]
 "DynamicScrollbars"=dword:00000000
