@@ -3,13 +3,6 @@
 ```
 Windows Registry Editor Version 5.00  
 
-;Alt+Tab Classic
-[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer]
-"AltTabSettings"=dword:00000001
-
-[HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Explorer]
-"AltTabSettings"=dword:00000001
-
 ;Always show all icons and notifications on the taskbar
 
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer]
