@@ -46,3 +46,17 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Feeds]
 "ShellFeedsTaskbarViewMode"=dword:00000002
+
+;Disable Notification Center
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\Classes\Software\Policies\Microsoft\Windows\Explorer]
+"DisableNotificationCenter"=dword:00000001
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\PushNotifications]
+"ToastEnabled"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\PushNotifications]
+"ToastEnabled"=dword:00000000
