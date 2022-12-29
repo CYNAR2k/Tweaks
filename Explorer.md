@@ -38,7 +38,6 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Directory\shell\cmd2\command]
 @="cmd.exe /s /k pushd \"%V\""
 
-
 [HKEY_CLASSES_ROOT\Directory\Background\shell\cmd2]
 @="@shell32.dll,-8506"
 "Extended"=""
@@ -47,7 +46,6 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CLASSES_ROOT\Directory\Background\shell\cmd2\command]
 @="cmd.exe /s /k pushd \"%V\""
-
 
 [HKEY_CLASSES_ROOT\Drive\shell\cmd2]
 @="@shell32.dll,-8506"
@@ -58,7 +56,6 @@ Windows Registry Editor Version 5.00
 [HKEY_CLASSES_ROOT\Drive\shell\cmd2\command]
 @="cmd.exe /s /k pushd \"%V\""
 
-
 [-HKEY_CLASSES_ROOT\LibraryFolder\Background\shell\cmd2]
 
 ;Display file size information in folder tips
@@ -68,4 +65,5 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "FolderContentsInfoTip"=dword:00000001
- 
+
+```
