@@ -60,3 +60,24 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\PushNotifications]
 "ToastEnabled"=dword:00000000
+
+;Disable Notifications network usage
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\PushNotifications]
+"NoCloudApplicationNotification"=dword:00000001
+
+;Disable mouse acceleration 
+
+[HKEY_CURRENT_USER\Control Panel\Mouse]
+"MouseSpeed"="0"
+
+[HKEY_CURRENT_USER\Software\Classes\Control Panel\Mouse]
+"MouseSpeed"="0"
+
+;Disable Quiet Hours (Focus Assist)
+
+[HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CurrentVersion\QuietHours]
+"Enable"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Classes\Software\Policies\Microsoft\Windows\CurrentVersion\QuietHours]
+"Enable"=dword:00000000
