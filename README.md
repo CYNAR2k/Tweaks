@@ -12,4 +12,4 @@ Enjoy.
 
 - [Power Control](https://github.com/CYNAR2k/Tweaks/blob/main/Power%20Control.md)
 
--[Desktop](https://github.com/CYNAR2k/Tweaks/blob/main/Desktop.md)
+- [Desktop](https://github.com/CYNAR2k/Tweaks/blob/main/Desktop.md)
