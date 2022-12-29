@@ -3,7 +3,11 @@
 ```
 Windows Registry Editor Version 5.00  
 
-;Fast Startup
+;Disable Fast Startup
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Power]
+"HiberbootEnabled"=dword:00000000
+
 
 
 ````
