@@ -7,7 +7,4 @@ Windows Registry Editor Version 5.00
 
 [HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Session Manager\Power]
 "HiberbootEnabled"=dword:00000000
-
-
-
 ````
