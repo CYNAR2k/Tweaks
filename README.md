@@ -18,6 +18,6 @@ Enjoy.
 
 - [System](https://github.com/CYNAR2k/Tweaks/blob/main/System.md)
 
-- [Windows Defender](- [Power Control](https://github.com/CYNAR2k/Tweaks/blob/main/Windows%20Defender.md)
+- [Windows Defender](https://github.com/CYNAR2k/Tweaks/blob/main/Windows%20Defender.md)
 
 - [Updates](https://github.com/CYNAR2k/Tweaks/blob/main/Updates.md)
