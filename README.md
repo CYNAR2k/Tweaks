@@ -6,14 +6,18 @@ I don't take credits for such registrys.
 
 Enjoy.
 
-- [Privacy](https://github.com/CYNAR2k/Tweaks/blob/main/Privacy.md)
+- [Crash Control](https://github.com/CYNAR2k/Tweaks/blob/main/Crash%20Control.md)
+
+- [Desktop](https://github.com/CYNAR2k/Tweaks/blob/main/Desktop.md)
 
 - [Explorer](https://github.com/CYNAR2k/Tweaks/blob/main/Explorer.md)
 
 - [Power Control](https://github.com/CYNAR2k/Tweaks/blob/main/Power%20Control.md)
 
-- [Desktop](https://github.com/CYNAR2k/Tweaks/blob/main/Desktop.md)
+- [Privacy](https://github.com/CYNAR2k/Tweaks/blob/main/Privacy.md)
+
+- [System](https://github.com/CYNAR2k/Tweaks/blob/main/System.md)
+
+- [Windows Defender](- [Power Control](https://github.com/CYNAR2k/Tweaks/blob/main/Windows%20Defender.md)
 
 - [Updates](https://github.com/CYNAR2k/Tweaks/blob/main/Updates.md)
-
-- [Crash Control](https://github.com/CYNAR2k/Tweaks/blob/main/Crash%20Control.md)
