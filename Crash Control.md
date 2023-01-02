@@ -1,1 +1,9 @@
+# Crash Control
 
+```
+Windows Registry Editor Version 5.00
+
+;Auto-Reboot on BSOD crash
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\CrashControl]
+"AutoReboot"=dword:00000000
