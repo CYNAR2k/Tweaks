@@ -562,6 +562,12 @@ Windows Registry Editor Version 5.00
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\FlipAhead]
 "FPEnabled"=dword:00000000
 
+
+;Disable SmartScreen online services to check web content in Internet Explorer
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Internet Explorer\PhishingFilter]
+"Enabledv9"=dword:00000000
+
 ;Disable Windows Spotlight (Tips and suggestions)
 
 [HKEY_CURRENT_USER\SOFTWARE\Policies\Microsoft\Windows\CloudContent]
