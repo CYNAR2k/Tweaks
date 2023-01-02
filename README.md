@@ -15,3 +15,5 @@ Enjoy.
 - [Desktop](https://github.com/CYNAR2k/Tweaks/blob/main/Desktop.md)
 
 - [Updates](https://github.com/CYNAR2k/Tweaks/blob/main/Updates.md)
+
+- [Crash Control](https://github.com/CYNAR2k/Tweaks/blob/main/Crash Control.md)
