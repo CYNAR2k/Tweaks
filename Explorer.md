@@ -73,3 +73,8 @@ Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Software\Classes\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "ShowSyncProviderNotifications"=dword:00000000
+
+;Disable Netowrk in navigation pane
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\CLSID\{F02C1A0D-BE21-4350-88B0-7367FC96EF3C}\ShellFolder]
+"Attributes"=dword:b0940064
