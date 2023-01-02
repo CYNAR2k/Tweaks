@@ -1,3 +1,6 @@
+# Updates
+
+```
 Windows Registry Editor Version 5.00
 
 ;Prevent Edge to install again
