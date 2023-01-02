@@ -16,4 +16,4 @@ Enjoy.
 
 - [Updates](https://github.com/CYNAR2k/Tweaks/blob/main/Updates.md)
 
-- [Crash Control](https://github.com/CYNAR2k/Tweaks/blob/main/Crash Control.md)
+- [Crash Control](https://github.com/CYNAR2k/Tweaks/blob/main/Crash%20Control.md)
