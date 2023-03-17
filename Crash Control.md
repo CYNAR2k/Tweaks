@@ -1,3 +1,6 @@
+# Crash Control
+
+```
 Windows Registry Editor Version 5.00
 
 ;Auto-Reboot on BSOD crash
