@@ -1,6 +1,3 @@
-# Power Control
-
-```
 Windows Registry Editor Version 5.00  
 
 ;Disable Fast Startup
