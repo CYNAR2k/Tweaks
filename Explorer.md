@@ -1,6 +1,3 @@
-# Explorer
-
-```
 Windows Registry Editor Version 5.00  
 
 ;Always show all icons and notifications on the taskbar
