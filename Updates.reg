@@ -1,8 +1,16 @@
 Windows Registry Editor Version 5.00
 
+;Don't update drivers with quality updates
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\WindowsUpdate]
+"ExcludeWUDriversInQualityUpdate"=dword:00000001
+
 ;Prevent Edge to install again
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\EdgeUpdate]
 "DoNotUpdateToEdgeWithChromium"=dword:00000001
+
+;Don't use windows update in dev mgmt
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DriverSearching]
+"DriverUpdateWizardWuSearchEnabled"=dword:00000000
 
 ;Prevent windows to install drivers automatic
 [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\DriverSearching]
