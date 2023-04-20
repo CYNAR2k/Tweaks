@@ -2,7 +2,7 @@
 
 Collection of Windows Tweaks for Performance, Customization, Latency, Privacy & Gaming.
 
-If you get errors when trying to run any of this files, use [NSUDO](https://github.com/M2TeamArchived/NSudo/releases/tag/8.2)
+If you get errors when trying to run any of this files, use [NSUDO](https://github.com/M2TeamArchived/NSudo/releases/tag/8.2) with trusted installer and check the enable all privileges.
 
 I don't take credits for such registrys.
 
