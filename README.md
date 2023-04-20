@@ -21,3 +21,7 @@ Enjoy.
 - [Windows Defender](https://github.com/CYNAR2k/Tweaks/blob/main/Windows%20Defender.reg)
 
 - [Updates](https://github.com/CYNAR2k/Tweaks/blob/main/Updates.reg)
+
+- [Gaming](https://github.com/CYNAR2k/Tweaks/blob/main/Gaming.reg)
+
+- [NVIDIA](https://github.com/CYNAR2k/Tweaks/blob/main/NVIDIA.reg)
