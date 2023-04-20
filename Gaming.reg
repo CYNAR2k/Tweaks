@@ -24,3 +24,27 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\SOFTWARE\Microsoft\GameBar]
 "UseNexusForGameBarEnabled"=dword:00000000
 "AutoGameModeEnabled"=dword:00000000
+
+# ;Disable Full Screen Optimizations
+
+# [HKEY_CURRENT_USER\Software\Classes\System\GameConfigStore]
+# "GameDVR_FSEBehavior"=dword:00000002
+
+# [HKEY_CURRENT_USER\System\GameConfigStore]
+# "GameDVR_FSEBehavior"=dword:00000002
+
+#;Enable Full Screen Optimizations
+
+# [HKEY_CURRENT_USER\Software\Classes\System\GameConfigStore]
+# "GameDVR_FSEBehavior"=dword:00000000
+
+# [HKEY_CURRENT_USER\System\GameConfigStore]
+# "GameDVR_FSEBehavior"=dword:00000000
+
+;Disable Hardware-accelerated GPU scheduluing 
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\GraphicsDrivers]
+"HwSchMode"=dword:00000001
+
+
+
