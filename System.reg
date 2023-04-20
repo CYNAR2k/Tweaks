@@ -1,0 +1,25 @@
+Windows Registry Editor Version 5.00
+
+;Disable Adobe Type Manager Font Driver (ATMFD)
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Windows]
+"DisableATMFD"=dword:00000001
+
+;Disable Automatic App Archiving 
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Appx]
+"AllowAutomaticAppArchiving"=dword:00000000
+
+;Disable Automatic save my restartable apps when I sign out and restart them after I sign in
+
+[HKEY_CURRENT_USER\Software\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"RestartApps"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Classes\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon]
+"RestartApps"=dword:00000000
+
+;Disable Disk Quota
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\DiskQuota]
+"Enable"=dword:00000000
+"Enforce"=dword:00000000
