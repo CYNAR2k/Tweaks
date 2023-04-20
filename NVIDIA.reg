@@ -1,0 +1,21 @@
+Windows Registry Editor Version 5.00
+
+;Restore old Sharpening in control panel
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\nvlddmkm\FTS]
+"EnableGR535"=dword:00000000
+
+;Disable Telemetry
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\NVIDIA Corporation\NvControlPanel2\Client]
+"OptInOrOutPreference"=dword:00000000
+"SendTelemetryData"=dword:00000000
+
+;Disable HDCP (required for DRM content)
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Class\{4d36e968-e325-11ce-bfc1-08002be10318}\0000]
+"RMHdcpKeyglobZero"=dword:00000001
+
+;Lock GPU Clocks/P-State 0
+
+"DisableDynamicPstate"=dword:00000001
