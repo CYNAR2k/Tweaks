@@ -36,3 +36,49 @@ Windows Registry Editor Version 5.00
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
 "SubscribedContent-280810Enabled"=dword:00000000
 "SubscribedContent-280811Enabled"=dword:00000000
+
+;Disable Remote Desktop
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Terminal Server]
+"fDenyTSConnections"=dword:00000001
+"updateRDStatus"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows NT\Terminal Services]
+"fDenyTSConnections"=dword:00000001
+
+;Disable Storage Sense
+
+[HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\StorageSense\Parameters\StoragePolicy]
+"01"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\Classes\SOFTWARE\Microsoft\Windows\CurrentVersion\StorageSense\Parameters\StoragePolicy]
+"01"=dword:00000000
+
+;Disable Virtualization-based Security (VBS)
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\DeviceGuard]
+"EnableVirtualizationBasedSecurity"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\Policies\Microsoft\Windows\DeviceGuard]
+"HVCIMATRequired"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DeviceGuard]
+"Locked"=dword:00000000
+"RequirePlatformSecurityFeatures"=dword:00000000
+"EnableVirtualizationBasedSecurity"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\DeviceGuard\Scenarios\HypervisorEnforcedCodeIntegrity]
+"Enabled"=dword:00000000
+"HVCIMATRequired"=dword:00000000
+"Locked"=dword:00000000
+
+[HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Control\Lsa]
+"LsaCfgFlags"=dword:00000000
+
+;Use only latest CLR (.NET Version) - Force .NET applications to use the latest installed framework on the system, making it unnecessary to install previous versions like 2.0 or 3.5
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\.NETFramework]
+"OnlyUseLatestCLR"=dword:00000001
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Microsoft\.NETFramework]
+"OnlyUseLatestCLR"=dword:00000001
